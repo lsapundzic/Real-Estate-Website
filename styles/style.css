@@ -9,6 +9,9 @@
   /* Fonts */
   font-size: 10px;
   font-family: "Nunito Sans", sans-serif;
+
+  /* Behavior */
+  box-sizing: border-box;
 }
 
 /* $$$$$$$$   Navigation $$$$$$$ */
@@ -60,6 +63,7 @@ nav > a:hover {
 header {
   /* Space */
   text-align: center;
+  margin: 150px;
 }
 
 h1 {
@@ -77,5 +81,19 @@ h2 {
 h3 {
   /* Font */
   font-size: 3rem;
+}
+
+article {
+  /* Spatial */
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+p {
+  /* Font */
+  font-size: 2rem;
+
+  /* Space */
+  margin-bottom: 17px;
 }
 /* $$$$$$$$   Footer $$$$$$$ */
