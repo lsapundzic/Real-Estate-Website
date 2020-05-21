@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-/* $$$$$$$$   Navigation $$$$$$$ */
+/* $$$$$$$$   Navigation    $$$$$$$ */
 
 nav {
   /* Space */
@@ -58,7 +58,7 @@ nav > a:hover {
   border-radius: 5px;
 }
 
-/* $$$$$$$$   Header $$$$$$$ */
+/* $$$$$$$$   Header    $$$$$$$ */
 
 header {
   /* Space */
@@ -77,10 +77,11 @@ h2 {
   font-size: 3.5rem;
 }
 
-/* $$$$$$$$   Body $$$$$$$ */
+/* $$$$$$$$   Body    $$$$$$$ */
 h3 {
   /* Font */
   font-size: 3rem;
+  margin-bottom: 30px;
 }
 
 article {
@@ -97,7 +98,7 @@ p {
   margin-bottom: 2rem;
 }
 
-/* $$$$$$$$   Footer $$$$$$$ */
+/* $$$$$$$$   Footer    $$$$$$$ */
 
 footer {
   /* Spatial */
