@@ -87,8 +87,7 @@ h3 {
 
 article {
   /* Layout */
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin: 30px 11vw 200px 11vw;
 }
 
 p {
