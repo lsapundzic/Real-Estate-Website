@@ -29,8 +29,6 @@ nav a {
 
   /* Layout */
   margin: 40px;
-  outline: none;
-  text-decoration: none;
   padding: 5px 10px 5px 10px;
   border: 1px solid black;
   border-radius: 5px;
@@ -38,10 +36,13 @@ nav a {
   /* Design */
   color: white; /* TODO: Change this to matching color set */
   background-color: black;
+  outline: none;
+  text-decoration: none;
 }
 
 nav > a:visited,
 nav > a:active {
+  /* Design */
   outline: none;
   text-decoration: none;
   color: white; /* TODO: Change this to matching color set */
@@ -50,10 +51,10 @@ nav > a:active {
 
 /* nav > a:focus, */
 nav > a:hover {
+  /* Design */
   color: black;
   background-color: white;
   font-weight: bold;
-  /* Unsure of this decision */
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -121,11 +122,15 @@ footer address {
 }
 
 footer a {
+  /* Design */
   outline: none;
   text-decoration: none;
 }
 
 .ft-slice {
-  border: 1px solid green;
-  flex: 1fr;
+  /* Design */
+  border: 1px solid green; /* Temporary
+
+  /* Behavior */
+  flex: 1;
 }
