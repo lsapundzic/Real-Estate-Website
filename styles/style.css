@@ -1,0 +1,7 @@
+/* Main style for all pages */
+
+/* Remove default formatting and add default fonts*/
+* {
+  padding: 0;
+  margin: 0;
+}
