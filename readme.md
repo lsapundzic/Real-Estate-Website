@@ -8,6 +8,6 @@
 
 Every CSS element should contain the following order of information:
 [1] Font
-[2] Space
+[2] Layout
 [3] Design
 [4] Behavior
