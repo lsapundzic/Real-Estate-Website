@@ -103,9 +103,13 @@ p {
 footer {
   /* Spatial */
   height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 footer,
+footer div,
 footer a,
 footer address {
   /* Font */
@@ -119,4 +123,8 @@ footer address {
 footer a {
   outline: none;
   text-decoration: none;
+}
+
+.ft-slice {
+  flex: 1fr;
 }
