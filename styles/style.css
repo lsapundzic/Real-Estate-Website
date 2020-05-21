@@ -69,9 +69,13 @@ h1 {
 }
 
 h2 {
+  /* Font */
   font-size: 3.5rem;
 }
 
 /* $$$$$$$$   Body $$$$$$$ */
-
+h3 {
+  /* Font */
+  font-size: 3rem;
+}
 /* $$$$$$$$   Footer $$$$$$$ */
