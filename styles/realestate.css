@@ -32,8 +32,11 @@ main {
   flex: 3 930px;
 
   display: grid;
-  column-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  gap: 30px;
 }
 
 .estate {
+  border: 1px solid chocolate;
 }
