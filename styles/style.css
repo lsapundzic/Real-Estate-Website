@@ -26,9 +26,10 @@
 /* $$$$$$$$   Navigation    $$$$$$$ */
 
 nav {
-  /* Layout */
-  text-align: center;
-  margin: 20px;
+  /* Behavior */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav a {
@@ -37,13 +38,13 @@ nav a {
   font-weight: bold;
 
   /* Layout */
-  margin: 40px;
+  margin: 20px 40px 20px 40px;
   padding: 5px 10px 5px 10px;
   border: 1px solid #2e2d2d;
   border-radius: 5px;
 
   /* Design */
-  color: #f2eded; /* TODO: Change this to matching color set */
+  color: #f2eded;
   background-color: #2e2d2d;
   outline: none;
   text-decoration: none;
@@ -54,7 +55,7 @@ nav > a:active {
   /* Design */
   outline: none;
   text-decoration: none;
-  color: #f2eded; /* TODO: Change this to matching color set */
+  color: #f2eded;
   background-color: #2e2d2d;
 }
 
