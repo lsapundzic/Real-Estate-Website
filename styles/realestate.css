@@ -21,12 +21,13 @@ main {
 .filter {
   /* Layout */
   margin: 0 10px 0 10px;
-  height: 600px;
+  min-height: 600px;
 
   /* Design */
   color: #f2eded;
   background-color: #2e2d2d;
   border-radius: 5px;
+  box-shadow: 3px 3px 6px black;
 
   /* Behavior */
   flex: 1 280px;
@@ -54,4 +55,5 @@ main {
 
   /* Design */
   border-radius: 5px;
+  box-shadow: 3px 3px 6px black;
 }
