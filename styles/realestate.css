@@ -1,0 +1,25 @@
+/* Stylesheet for Real Estate page. Behavior is unique to this page */
+
+/* Header override */
+header {
+  /* Font */
+  text-align: unset;
+
+  /* Layout */
+  margin: 50px;
+}
+
+main {
+  /* Behavior */
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 20px;
+}
+
+.filter {
+  border: 3px solid orange;
+}
+
+.estate-ctn {
+  border: 3px solid purple;
+}
