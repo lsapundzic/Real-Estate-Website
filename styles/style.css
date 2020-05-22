@@ -140,9 +140,11 @@ footer a {
 }
 
 .ft-slice {
+  /* Font */
+  font-style: italic;
+
   /* Layout */
   padding: 2%;
-  border: 1px solid green;
 
   /* Behavior */
   flex: 1 300px;

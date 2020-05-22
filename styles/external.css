@@ -1,7 +1,7 @@
 /* This document is for external objects like YouTube videos and Google Maps */
 
 /* Google Maps in Footer */
-.footer-map {
+.ft-map {
   height: 0;
   overflow: hidden;
   padding-bottom: 20%;
