@@ -11,15 +11,23 @@ header {
 
 main {
   /* Behavior */
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  column-gap: 20px;
+  display: flex;
+  flex-wrap: wrap-reverse;
 }
 
 .filter {
   border: 3px solid orange;
+
+  /* Behavior */
+  flex: 1;
 }
 
-.estate-ctn {
+.estates-ctn {
   border: 3px solid purple;
+
+  /* Behavior */
+  flex: 4;
+
+  display: grid;
+  column-gap: 10px;
 }
