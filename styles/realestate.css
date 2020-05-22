@@ -13,6 +13,7 @@ header {
 main {
   /* Behavior */
   display: flex;
+  align-items: flex-end;
   flex-wrap: wrap-reverse;
 }
 
@@ -20,8 +21,11 @@ main {
 .filter {
   border: 3px solid orange;
 
+  /* Layout */
+  height: 600px;
+
   /* Behavior */
-  flex: 1.5 330px;
+  flex: 1 330px;
 }
 
 /* Right-hand side estated properties */
@@ -29,7 +33,7 @@ main {
   border: 3px solid purple;
 
   /* Behavior */
-  flex: 3 930px;
+  flex: 7 930px;
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
