@@ -19,10 +19,14 @@ main {
 
 /* Left-hand side search filter */
 .filter {
-  border: 3px solid orange;
-
   /* Layout */
+  margin: 0 10px 0 10px;
   height: 600px;
+
+  /* Design */
+  color: #f2eded;
+  background-color: #2e2d2d;
+  border-radius: 5px;
 
   /* Behavior */
   flex: 1 280px;
@@ -47,4 +51,7 @@ main {
   /* Layout */
   margin: 3%;
   border: 1px solid chocolate;
+
+  /* Design */
+  border-radius: 5px;
 }
