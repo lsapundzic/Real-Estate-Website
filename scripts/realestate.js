@@ -1,6 +1,7 @@
 // NOT WORKING. DIFFERENT METHOD WILL BE APPLIED
 
-const estates = document.querySelectorAll("estate");
+const estates = document.querySelectorAll(".estate");
+
 const title = document.createElement("h3");
 title.innerHTML = "TEST CREATION";
 
