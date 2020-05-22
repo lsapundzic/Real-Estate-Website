@@ -1,5 +1,11 @@
 /* Main style for all pages */
 
+/* ORDER: 
+> Font
+> Layout
+> Design
+> Behavior */
+
 /* Remove default formatting and adding overall rules*/
 * {
   /* Reset */
