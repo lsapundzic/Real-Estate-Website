@@ -47,6 +47,7 @@ main {
   /* gap: 30px; */
 }
 
+/* Individual Real Estate Container Properties */
 .estate {
   /* Layout */
   margin: 3%;
@@ -56,4 +57,10 @@ main {
   background-color: #f2eded;
   border-radius: 5px;
   box-shadow: 3px 3px 6px black;
+
+  /* Behavior */
+  display: flex;
+  flex-direction: row;
 }
+
+/* Real Estate Container Content */
