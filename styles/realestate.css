@@ -35,7 +35,6 @@ main {
 
 /* Right-hand side estated properties */
 .showcase {
-  border: 3px solid purple;
   /* Layout */
   margin-top: -15px;
 
@@ -51,9 +50,10 @@ main {
 .estate {
   /* Layout */
   margin: 3%;
-  border: 1px solid chocolate;
+  border: 1px solid #2e2d2d;
 
   /* Design */
+  background-color: #f2eded;
   border-radius: 5px;
   box-shadow: 3px 3px 6px black;
 }
