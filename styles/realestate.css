@@ -25,22 +25,26 @@ main {
   height: 600px;
 
   /* Behavior */
-  flex: 1 330px;
+  flex: 1 280px;
 }
 
 /* Right-hand side estated properties */
 .showcase {
   border: 3px solid purple;
+  /* Layout */
+  margin-top: -15px;
 
   /* Behavior */
   flex: 7 930px;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: minmax(300px, auto);
-  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-auto-rows: minmax(400px, auto);
+  /* gap: 30px; */
 }
 
 .estate {
+  /* Layout */
+  margin: 3%;
   border: 1px solid chocolate;
 }
