@@ -9,25 +9,31 @@ header {
   margin: 50px;
 }
 
+/* Main content */
 main {
   /* Behavior */
   display: flex;
   flex-wrap: wrap-reverse;
 }
 
+/* Left-hand side search filter */
 .filter {
   border: 3px solid orange;
 
   /* Behavior */
-  flex: 1;
+  flex: 1.5 330px;
 }
 
-.estates-ctn {
+/* Right-hand side estated properties */
+.showcase {
   border: 3px solid purple;
 
   /* Behavior */
-  flex: 4;
+  flex: 3 930px;
 
   display: grid;
   column-gap: 10px;
+}
+
+.estate {
 }
