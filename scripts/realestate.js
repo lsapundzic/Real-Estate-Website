@@ -37,15 +37,15 @@ function fillData(jsonObj) {
 
     // Set property region
     const propRegion = document.createElement("h4");
-    propRegion.innerHTML = propertyRegion[i];
+    propRegion.innerHTML = `Region: ` + propertyRegion[i];
 
     // Set property price
     const propPrice = document.createElement("p");
-    propPrice.innerHTML = propertyPrice[i] + `&euro;`;
+    propPrice.innerHTML = `Price: ` + propertyPrice[i] + `&euro;`;
 
     // Set no. of bedrooms
     const propBedrooms = document.createElement("p");
-    propBedrooms.innerHTML = propertyBedrooms[i];
+    propBedrooms.innerHTML = `Bedrooms: ` + propertyBedrooms[i];
 
     // Add everything to one estate card
     estate.append(propName, propRegion, propPrice, propBedrooms);
