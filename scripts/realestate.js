@@ -1,39 +1,47 @@
-// The code is working but it should be reading a JSON file instead
+// This code calls server JSON to display data
 
-// Pre-JSON content
-let propertyNames = [
-  `Smarjeta Castle`,
-  `Otocec Castle`,
-  `Trska Gora Estate`,
-  `Ursna Sela Plantation`,
-  `Zuzemberk Fortress`,
-  `Krka, The Entire Village`,
-  `Grad Grm`,
-];
+// Calling JSON
+let requestURL =
+  "https://raw.githubusercontent.com/ForteMare/Lower-Carniola-Real-Estate--FIS-SP-/master/json/properties.json";
+let request = new XMLHttpRequest();
+request.open("GET", requestURL);
+request.responseType = "json";
+request.send();
 
-let propertyPrices = [
-  `100,000`,
-  `150,000`,
-  `350,000`,
-  `420,000`,
-  `250,000`,
-  `550,000`,
-];
+request.onload = function () {
+  const realEstateData = request.response;
+  fillData(realEstateData);
+};
 
-window.addEventListener("load", function () {
+// Adding content to the webpage
+
+function fillData(jsonObj) {
   const showcase = document.querySelector(".showcase");
+  const propertyName = jsonObj["name"];
+  const propertyRegion = jsonObj["region"];
+  const propertyPrice = jsonObj["price"];
+  const propertyBedrooms = jsonObj["bedrooms"];
 
-  for (let i = 0; i < propertyNames.length; i++) {
+  for (let i = 0; i < propertyName.length; i++) {
+    // Create div card and set class to estate
     const estate = document.createElement("div");
     estate.setAttribute("class", "estate");
 
+    // Set property name
     const propName = document.createElement("h3");
-    propName.innerHTML = propertyNames[i];
+    propName.innerHTML = propertyName[i];
 
-    const price = document.createElement("p");
-    price.innerHTML = propertyPrices[i] + `&euro;`;
+    // Set property region
+    const propRegion = document.createElement("h4");
+    propRegion.innerHTML = propertyRegion[i];
 
-    estate.append(propName, price);
+    const propPrice = document.createElement("p");
+    propPrice.innerHTML = propertyPrice[i] + `&euro;`;
+
+    const propBedrooms = document.createElement("p");
+    propBedrooms.innerHTML = propertyBedrooms[i];
+
+    estate.append(propName, propRegion, propPrice, propBedrooms);
     showcase.append(estate);
   }
-});
+}
