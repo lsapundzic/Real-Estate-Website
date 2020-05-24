@@ -1,5 +1,6 @@
 // The code is working but it should be reading a JSON file instead
 
+// Pre-JSON content
 let propertyNames = [
   `Smarjeta Castle`,
   `Otocec Castle`,
@@ -19,16 +20,20 @@ let propertyPrices = [
   `550,000`,
 ];
 
-const estates = document.querySelectorAll(".estate");
-
 window.addEventListener("load", function () {
+  const showcase = document.querySelector(".showcase");
+
   for (let i = 0; i < propertyNames.length; i++) {
-    const title = document.createElement("h3");
-    title.innerHTML = propertyNames[i] + `</br>`;
+    const estate = document.createElement("div");
+    estate.setAttribute("class", "estate");
+
+    const propName = document.createElement("h3");
+    propName.innerHTML = propertyNames[i];
 
     const price = document.createElement("p");
     price.innerHTML = propertyPrices[i] + `&euro;`;
 
-    estates[i].append(title, price);
+    estate.append(propName, price);
+    showcase.append(estate);
   }
 });
