@@ -11,6 +11,9 @@ header {
 
 /* Main content */
 main {
+  /* Layout */
+  margin: 1vw;
+
   /* Behavior */
   display: flex;
   align-items: flex-end;
@@ -20,7 +23,7 @@ main {
 /* Left-hand side search filter */
 .filter {
   /* Layout */
-  margin: 0 10px 0 10px;
+  margin: 0 15px 0 0;
   min-height: 600px;
 
   /* Design */
@@ -30,7 +33,7 @@ main {
   box-shadow: 3px 3px 6px black;
 
   /* Behavior */
-  flex: 1 280px;
+  flex: 1 230px;
 }
 
 /* Right-hand side estated properties */
