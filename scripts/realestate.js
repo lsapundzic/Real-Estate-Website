@@ -1,13 +1,24 @@
-// NOT WORKING. DIFFERENT METHOD WILL BE APPLIED
+// The code is working but it should be reading a JSON file instead
 
-const estates = document.querySelectorAll(".estate");
+let propertyNames = [
+  `Smarjeta Castle`,
+  `Otocec Castle`,
+  `Trska Gora Estate`,
+  `Ursna Sela Plantation`,
+  `Zuzemberk Fortress`,
+];
 
-const title = document.createElement("h3");
-title.innerHTML = "TEST CREATION";
+let propertyPrices = [500000, 650000, 250000, 120000, 350000];
 
 window.addEventListener("load", function () {
   document.body.style.backgroundColor = "#81188c";
-  for (let i = 0; i < estates.length; i++) {
-    estates[i].appendChild(title);
+  for (let i = 0; i < propertyNames.length; i++) {
+    const title = document.createElement("h3");
+    title.innerHTML = propertyNames[i] + `<br>`;
+
+    const price = document.createElement("p");
+    price.innerHTML = propertyPrices[i] + `&euro;`;
+
+    estates[i].append(title, price);
   }
 });
