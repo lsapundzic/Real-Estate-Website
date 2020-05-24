@@ -11,14 +11,12 @@ let propertyNames = [
 ];
 
 let propertyPrices = [
-  500000,
-  650000,
-  250000,
-  120000,
-  350000,
-  660000,
-  450000,
-  110000,
+  `100,000`,
+  `150,000`,
+  `350,000`,
+  `420,000`,
+  `250,000`,
+  `550,000`,
 ];
 
 const estates = document.querySelectorAll(".estate");
@@ -26,7 +24,7 @@ const estates = document.querySelectorAll(".estate");
 window.addEventListener("load", function () {
   for (let i = 0; i < propertyNames.length; i++) {
     const title = document.createElement("h3");
-    title.innerHTML = propertyNames[i] + `<br>`;
+    title.innerHTML = propertyNames[i] + `</br>`;
 
     const price = document.createElement("p");
     price.innerHTML = propertyPrices[i] + `&euro;`;

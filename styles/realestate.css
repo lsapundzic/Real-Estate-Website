@@ -49,7 +49,7 @@ main {
   gap: 20px;
 }
 
-/* Individual Real Estate Container Properties */
+/* Individual Real Estate Card Properties */
 .estate {
   /* Layout */
   border: 1px solid #2e2d2d;
@@ -61,12 +61,5 @@ main {
 
   /* Behavior */
   display: flex;
-  flex-direction: row;
-}
-
-/* Real Estate Container Content */
-
-/* TESTING. DELETE */
-#sample {
-  background-color: green;
+  flex-direction: column;
 }
