@@ -10,3 +10,7 @@ const Properties = {
   price: [`800,000`, `3,400,000`, `1,200,000`, `70,000`, `45,000`],
   bedrooms: [3, 120, 30, 1, 4],
 };
+
+var myJSONdata = JSON.stringify(Properties);
+
+console.log(myJSONdata);
