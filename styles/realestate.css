@@ -36,7 +36,6 @@ main {
 /* Right-hand side estated properties */
 .showcase {
   /* Layout */
-  margin-top: -15px;
 
   /* Behavior */
   flex: 7 930px;
@@ -44,13 +43,12 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   grid-auto-rows: minmax(400px, auto);
-  /* gap: 30px; */
+  gap: 20px;
 }
 
 /* Individual Real Estate Container Properties */
 .estate {
   /* Layout */
-  margin: 3%;
   border: 1px solid #2e2d2d;
 
   /* Design */
