@@ -6,12 +6,24 @@ let propertyNames = [
   `Trska Gora Estate`,
   `Ursna Sela Plantation`,
   `Zuzemberk Fortress`,
+  `Krka, The Entire Village`,
+  `Grad Grm`,
 ];
 
-let propertyPrices = [500000, 650000, 250000, 120000, 350000];
+let propertyPrices = [
+  500000,
+  650000,
+  250000,
+  120000,
+  350000,
+  660000,
+  450000,
+  110000,
+];
+
+const estates = document.querySelectorAll(".estate");
 
 window.addEventListener("load", function () {
-  document.body.style.backgroundColor = "#81188c";
   for (let i = 0; i < propertyNames.length; i++) {
     const title = document.createElement("h3");
     title.innerHTML = propertyNames[i] + `<br>`;
