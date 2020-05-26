@@ -25,6 +25,7 @@ main {
   /* Layout */
   margin: 0 15px 0 0;
   min-height: 600px;
+  padding: 10px;
 
   /* Design */
   color: #f2eded;
@@ -33,7 +34,44 @@ main {
   box-shadow: 3px 3px 6px black;
 
   /* Behavior */
-  flex: 1 230px;
+  flex: 1 150px;
+}
+
+.filter > h4 {
+  /* Font */
+  font-size: 2.5rem;
+
+  /* Layout */
+  margin-bottom: 15px;
+  /* Design */
+  color: inherit;
+  background-color: inherit;
+}
+
+.filter div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter button {
+  /* Font */
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  /* Layout */
+  margin: 2px;
+
+  /* Design */
+  background-color: inherit;
+  outline: none;
+  border: none;
+
+  /* Behavior */
+}
+
+.filter button:hover {
+  /* Design */
 }
 
 /* Right-hand side estated properties */

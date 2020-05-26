@@ -4,6 +4,7 @@
 .estate {
   /* Layout */
   border: 1px solid #2e2d2d;
+  padding: 10px;
 
   /* Design */
   background-color: #f2eded;
@@ -13,4 +14,12 @@
   /* Behavior */
   display: flex;
   flex-direction: column;
+}
+
+.estate h4 {
+  font-size: 2.5rem;
+}
+
+.estate p {
+  margin: 0;
 }
