@@ -1,10 +1,15 @@
 const Properties = {
+  id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   name: [
+    `Struga Castle`,
+    `Škofija Novo mesto`,
     `Žužemberk Castle`,
+    `Hotel Sport Otočec`,
     `Mokrice Castle`,
     `Otočec Castle`,
     `Hmeljnik Castle`,
     `Soteska Castle`,
+    `Štrlek Castle Ruins`,
   ],
   region: [`Dolenjska`, `Dolenjska`, `Dolenjska`, `Dolenjska`, `Dolenjska`],
   price: [`800,000`, `3,400,000`, `1,200,000`, `70,000`, `45,000`],
