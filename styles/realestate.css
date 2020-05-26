@@ -48,18 +48,3 @@ main {
   grid-auto-rows: minmax(400px, auto);
   gap: 20px;
 }
-
-/* Individual Real Estate Card Properties */
-.estate {
-  /* Layout */
-  border: 1px solid #2e2d2d;
-
-  /* Design */
-  background-color: #f2eded;
-  border-radius: 5px;
-  box-shadow: 3px 3px 6px black;
-
-  /* Behavior */
-  display: flex;
-  flex-direction: column;
-}
