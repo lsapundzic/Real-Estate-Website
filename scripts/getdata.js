@@ -27,9 +27,9 @@ function fillData(jsonObj) {
 
   // Create as many cards as there are items in propertyName array
   for (let i = 0; i < propertyName.length; i++) {
-    // Create div card and set class to estate
+    // Create div card and set class to estate + its region
     const estate = document.createElement("div");
-    estate.setAttribute("class", "estate");
+    estate.setAttribute("class", `estate ` + propertyRegion[i]);
 
     // Set property name
     const propName = document.createElement("h3");

@@ -86,3 +86,7 @@ main {
   grid-auto-rows: minmax(400px, auto);
   gap: 20px;
 }
+
+.disappear {
+  display: none;
+}
