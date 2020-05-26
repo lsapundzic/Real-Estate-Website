@@ -54,3 +54,43 @@ function fillData(jsonObj) {
     showcase.append(estate);
   }
 }
+
+// Get button commands for alternative data order
+const all = document.querySelector("#all");
+const dol = document.querySelector("#dolenjska");
+
+dol.addEventListener("click", function () {
+  selectFillData("Dolenjska");
+});
+
+function selectFillData(region) {
+  for (let i = 0; i < propertyName.length; i++) {
+    if (propertyRegion[i] === region) {
+      // Create div card and set class to estate + its region
+      const estate = document.createElement("div");
+      estate.setAttribute("class", `estate ` + propertyRegion[i]);
+
+      // Set property name
+      const propName = document.createElement("h3");
+      propName.innerHTML = propertyName[i];
+
+      // Set property region
+      const propRegion = document.createElement("h4");
+      propRegion.innerHTML = `Region: ` + propertyRegion[i];
+
+      // Set property price
+      const propPrice = document.createElement("p");
+      propPrice.innerHTML = `Price: ` + propertyPrice[i] + `&euro;`;
+
+      // Set no. of bedrooms
+      const propBedrooms = document.createElement("p");
+      propBedrooms.innerHTML = `Bedrooms: ` + propertyBedrooms[i];
+
+      // Add everything to one estate card
+      estate.append(propName, propRegion, propPrice, propBedrooms);
+
+      // Add one estate card to showcase div
+      showcase.append(estate);
+    }
+  }
+}
