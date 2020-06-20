@@ -29,5 +29,5 @@
         <a href="../pages/realestate.php">Real Estate</a>
         <a href="../pages/lifestyle.php">Lifestyle</a>
         <a href="../pages/contact.php">Contact</a>
-        <a href="#">Login</a>
+        <a href="../pages/login.php">Login</a>
     </nav>
