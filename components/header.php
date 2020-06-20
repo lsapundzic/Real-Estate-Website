@@ -11,11 +11,20 @@
     <!-- Main CSS Style -->
     <link rel="stylesheet" href="../styles/style.css" />
 
+    <!-- Page Specific Style -->
+    <link rel="stylesheet" href="../styles/realestate.css" />
+
+    <!-- Style for Estate Cards -->
+    <link rel="stylesheet" href="../styles/estatecard.css" />
+
     <!-- CSS for Externals -->
     <link rel="stylesheet" href="../styles/external.css" />
 
-    <!-- Main JS Script -->
-    <script src="../scripts/script.js" defer></script>
+    <!-- JS Script for JSON -->
+    <script src="../scripts/getdata.js" defer></script>
+
+    <!-- JS for filtering data -->
+    <script src="../scripts/filterdata.js" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,300;1,900&family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
@@ -26,7 +35,7 @@
     <nav>
         <a href="../pages/index.php">Home</a>
         <a href="../pages/about.php">About</a>
-        <a href="../pages/realestate.html">Real Estate</a>
+        <a href="../pages/realestate.php">Real Estate</a>
         <a href="../pages/lifestyle.php">Lifestyle</a>
         <a href="../pages/contact.php">Contact</a>
         <a href="#">Login</a>
