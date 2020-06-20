@@ -28,7 +28,7 @@ main {
   padding: 10px;
 
   /* Design */
-  color: #f2eded;
+  color: #ffffed;
   background-color: #2e2d2d;
   border-radius: 5px;
   box-shadow: 3px 3px 6px black;
@@ -66,7 +66,7 @@ main {
   width: auto;
 
   /* Design */
-  background-color: #f2eded;
+  background-color: #ffffed;
 
   /* Behavior */
 }

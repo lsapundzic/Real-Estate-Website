@@ -44,7 +44,7 @@ nav a {
   border-radius: 5px;
 
   /* Design */
-  color: #f2eded;
+  color: #ffffed;
   background-color: #2e2d2d;
   outline: none;
   text-decoration: none;
@@ -55,7 +55,7 @@ nav > a:active {
   /* Design */
   outline: none;
   text-decoration: none;
-  color: #f2eded;
+  color: #ffffed;
   background-color: #2e2d2d;
 }
 
@@ -63,7 +63,7 @@ nav > a:active {
 nav > a:hover {
   /* Design */
   color: black;
-  background-color: #f2eded;
+  background-color: #ffffed;
   font-weight: bold;
   border: 1px solid #2e2d2d;
   border-radius: 5px;
@@ -131,7 +131,7 @@ footer address {
 
   /* Design */
   background-color: #2e2d2d;
-  color: #f2eded;
+  color: #ffffed;
 }
 
 footer a {
