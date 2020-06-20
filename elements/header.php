@@ -25,8 +25,9 @@
     <!-- Navbar -->
     <nav>
         <a href="#">Home</a>
-        <a href="./pages/about.html">About</a>
+        <a href="">About</a>
         <a href="./pages/realestate.html">Real Estate</a>
         <a href="./pages/lifestyle.html">Lifestyle</a>
         <a href="./pages/contact.html">Contact</a>
+        <a href="#">Login</a>
     </nav>

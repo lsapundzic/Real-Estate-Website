@@ -1,5 +1,5 @@
 <?php
-include "elements/head.php"
+include "elements/header.php"
 ?>
 
 <!-- Header-Banner -->
