@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../styles/external.css" />
 
     <!-- Main JS Script -->
-    <script src="scripts/script.js" defer></script>
+    <script src="../scripts/script.js" defer></script>
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,300;1,900&family=Oswald:wght@500;700&display=swap" rel="stylesheet" />
@@ -24,10 +24,10 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <a href="../index.php">Home</a>
-        <a href="./pages/about.php">About</a>
-        <a href="./pages/realestate.html">Real Estate</a>
-        <a href="./pages/lifestyle.php">Lifestyle</a>
-        <a href="./pages/contact.php">Contact</a>
+        <a href="../pages/index.php">Home</a>
+        <a href="../pages/about.php">About</a>
+        <a href="../pages/realestate.html">Real Estate</a>
+        <a href="../pages/lifestyle.php">Lifestyle</a>
+        <a href="../pages/contact.php">Contact</a>
         <a href="#">Login</a>
     </nav>
