@@ -1,5 +1,5 @@
 <?php
-include "../components/header.php"
+include "../components/header.estates.php"
 ?>
 
 <!-- Main Content -->
