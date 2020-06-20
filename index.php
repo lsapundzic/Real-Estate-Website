@@ -1,5 +1,5 @@
 <?php
-include "elements/header.php"
+include "components/header.php"
 ?>
 
 <!-- Header-Banner -->
@@ -34,5 +34,5 @@ include "elements/header.php"
 <!-- Footer -->
 
 <?php
-include "elements/footer.php"
+include "components/footer.php"
 ?>

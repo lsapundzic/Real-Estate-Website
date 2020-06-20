@@ -1,5 +1,5 @@
 <?php
-include "../elements/header.php";
+include "../components/header.php";
 ?>
 <header>
     <h1>Æera Real Estate Agency</h1>
@@ -49,5 +49,5 @@ include "../elements/header.php";
     </article>
 </main>
 <?php
-include "../elements/footer.php";
+include "../components/footer.php";
 ?>
