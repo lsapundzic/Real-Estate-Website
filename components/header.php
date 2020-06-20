@@ -9,10 +9,10 @@
     <title>Æera Real Estate Agency| Home</title>
 
     <!-- Main CSS Style -->
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
 
     <!-- CSS for Externals -->
-    <link rel="stylesheet" href="styles/external.css" />
+    <link rel="stylesheet" href="../styles/external.css" />
 
     <!-- Main JS Script -->
     <script src="scripts/script.js" defer></script>
@@ -24,7 +24,7 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <a href="./index.php">Home</a>
+        <a href="../index.php">Home</a>
         <a href="./pages/about.php">About</a>
         <a href="./pages/realestate.html">Real Estate</a>
         <a href="./pages/lifestyle.php">Lifestyle</a>
