@@ -24,10 +24,10 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <a href="#">Home</a>
-        <a href="">About</a>
+        <a href="./realestate/index.php">Home</a>
+        <a href="./realestate/pages/about.php">About</a>
         <a href="./pages/realestate.html">Real Estate</a>
-        <a href="./pages/lifestyle.html">Lifestyle</a>
-        <a href="./pages/contact.html">Contact</a>
+        <a href="./realestate/pages/lifestyle.php">Lifestyle</a>
+        <a href="./realestate/pages/contact.php">Contact</a>
         <a href="#">Login</a>
     </nav>
