@@ -1,5 +1,5 @@
 <?php
-include "./components/header.estates.php"
+include "../components/header.estates.php"
 ?>
 
 <!-- Main Content -->
@@ -18,5 +18,5 @@ include "./components/header.estates.php"
 <!-- Footer -->
 
 <?php
-include "./components/footer.php"
+include "../components/footer.php"
 ?>
