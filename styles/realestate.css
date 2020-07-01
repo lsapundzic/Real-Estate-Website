@@ -2,92 +2,92 @@
 
 /* Header override */
 header {
-  /* Font */
-  text-align: unset;
+    /* Font */
+    text-align: unset;
 
-  /* Layout */
-  margin: 50px;
+    /* Layout */
+    margin: 50px;
 }
 
 /* Main content */
 main {
-  /* Layout */
-  margin: 1vw;
+    /* Layout */
+    margin: 1vw;
 
-  /* Behavior */
-  display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap-reverse;
+    /* Behavior */
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
 }
 
 /* Left-hand side search filter */
 .filter {
-  /* Layout */
-  margin: 0 15px 0 0;
-  min-height: 600px;
-  padding: 10px;
+    /* Layout */
+    margin: 0 15px 0 0;
+    min-height: 600px;
+    padding: 10px;
 
-  /* Design */
-  color: #ffffed;
-  background-color: #2e2d2d;
-  border-radius: 5px;
-  box-shadow: 3px 3px 6px black;
+    /* Design */
+    color: #ffffed;
+    background-color: #2e2d2d;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px black;
 
-  /* Behavior */
-  flex: 1 170px;
+    /* Behavior */
+    flex: 1 170px;
 }
 
 .filter > h4 {
-  /* Font */
-  font-size: 2.5rem;
+    /* Font */
+    font-size: 2.5rem;
 
-  /* Layout */
-  margin-bottom: 15px;
-  /* Design */
-  color: inherit;
-  background-color: inherit;
+    /* Layout */
+    margin-bottom: 15px;
+    /* Design */
+    color: inherit;
+    background-color: inherit;
 }
 
 .buttonsBox {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: inherit;
 }
 
 .bttn {
-  /* Font */
-  color: initial;
-  font-size: 1.5rem;
-  font-weight: bold;
+    /* Font */
+    color: initial;
+    font-size: 1.5rem;
+    font-weight: bold;
 
-  /* Layout */
-  margin: 12px;
-  padding: 15px;
-  width: auto;
+    /* Layout */
+    margin: 12px;
+    padding: 15px;
+    width: auto;
 
-  /* Design */
-  background-color: #ffffed;
+    /* Design */
+    background-color: #ffffed;
 
-  /* Behavior */
+    /* Behavior */
 }
 
 .filter button:hover {
-  /* Design */
+    /* Design */
 }
 
-/* Right-hand side estated properties */
+/* Right-hand side estate properties */
 .showcase {
-  /* Layout */
+    /* Layout */
+    margin-bottom: 40px;
+    /* Behavior */
+    flex: 7 930px;
 
-  /* Behavior */
-  flex: 7 930px;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-  grid-auto-rows: minmax(400px, auto);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-auto-rows: minmax(400px, auto);
+    gap: 20px;
 }
 
 .disappear {
-  display: none;
+    display: none;
 }
