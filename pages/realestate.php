@@ -12,7 +12,9 @@ include "../components/header.estates.php"
             <div class="bttn" id="gorenjska">Gorenjska</div>
         </div>
     </aside>
-    <div class="showcase"></div>
+    <div class="showcase">
+
+    </div>
 </main>
 
 <!-- Footer -->

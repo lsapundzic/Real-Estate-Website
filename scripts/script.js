@@ -1,1 +1,1 @@
-// Add general visualization
+// Script activated on all pages
