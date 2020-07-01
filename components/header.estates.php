@@ -10,13 +10,17 @@
 
     <!-- Main CSS Style -->
     <link rel="stylesheet" href="../styles/style.css"/>
+
+    <!--    Footer CSS Style-->
+    <link rel="stylesheet" href="../styles/footer.css">
+
     <!-- Page Specific Style -->
     <link rel="stylesheet" href="../styles/realestate.css"/>
+
     <!-- Style for Estate Cards -->
     <link rel="stylesheet" href="../styles/estatecard.css"/>
-    <!-- CSS for Externals -->
-    <link rel="stylesheet" href="../styles/external.css"/>
-    <!-- JS Script for JSON -->
+
+        <!-- JS Script for JSON -->
     <script src="../scripts/getdata.js" defer></script>
 
     <!-- Font -->
@@ -25,7 +29,7 @@
 </head>
 
 <body>
-<!-- Navbar -->
+
 <!-- Navbar -->
 <nav>
     <a href="../pages/index.php">Home</a>
