@@ -112,41 +112,4 @@ p {
   margin-bottom: 2rem;
 }
 
-/* $$$$$$$$   Footer    $$$$$$$ */
 
-footer {
-  /* Layout */
-  height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: Layout-evenly;
-}
-
-footer,
-footer div,
-footer a,
-footer address {
-  /* Font */
-  font-size: 1.8rem;
-
-  /* Design */
-  background-color: #2e2d2d;
-  color: #ffffed;
-}
-
-footer a {
-  /* Design */
-  outline: none;
-  text-decoration: none;
-}
-
-.ft-slice {
-  /* Font */
-  font-style: italic;
-
-  /* Layout */
-  padding: 2%;
-
-  /* Behavior */
-  flex: 1 300px;
-}

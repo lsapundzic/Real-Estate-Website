@@ -1,0 +1,57 @@
+/* $$$$$$$$   Footer    $$$$$$$ */
+
+footer {
+    /* Layout */
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer,
+footer div,
+footer a,
+footer address {
+    /* Font */
+    font-size: 1.8rem;
+
+    /* Design */
+    background-color: #2e2d2d;
+    color: #ffffed;
+}
+
+footer a {
+    /* Design */
+    outline: none;
+    text-decoration: none;
+}
+
+.ft-slice {
+    /* Font */
+    font-style: italic;
+
+    /* Layout */
+    padding: 2%;
+
+    /* Behavior */
+    flex: 1 300px;
+}
+
+/* This part is for external objects like YouTube videos and Google Maps */
+
+/* Google Maps in Footer */
+.ft-map {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 20%;
+    position: relative;
+}
+
+.gmap {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
