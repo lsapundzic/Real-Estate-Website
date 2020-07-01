@@ -9,8 +9,14 @@ include_once "../database/includes/connection.inc.php";
         <h4>Filter Content:</h4>
         <div class="buttonsBox">
             <div class="bttn" id="all">ALL</div>
-            <div class="bttn" id="dolenjska">Dolenjska</div>
-            <div class="bttn" id="gorenjska">Gorenjska</div>
+            <div class="bttn" id="gorenjska">Littoral</div>
+            <div class="bttn" id="gorenjska">Upper Carniola</div>
+            <div class="bttn" id="gorenjska">Inner Carniola</div>
+            <div class="bttn" id="gorenjska">Lower Carniola</div>
+            <div class="bttn" id="gorenjska">Carinthia</div>
+            <div class="bttn" id="gorenjska">Styria</div>
+            <div class="bttn" id="gorenjska">Prekmurje</div>
+
         </div>
     </aside>
 
