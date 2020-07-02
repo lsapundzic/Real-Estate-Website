@@ -58,7 +58,7 @@ $resultCheck = mysqli_num_rows($result);
                         <h4> {$row['region']}</h4><p>&euro;{$row['price']}</p><p>Bedrooms: {$row['bedrooms']}</p></a></div>";
             }
         } else {
-            echo "<h1>ERROR: The SQL database could not be reached</h1>";
+            echo "<strong>ERROR: The SQL database could not be reached</strong>";
         }
         ?>
     </div>

@@ -1,13 +1,6 @@
 /* ***   Footer    *** */
 
-footer {
-    /* Layout */
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
+/* Footer resets */
 footer * {
     /* Font */
     font-size: 1.8rem;
@@ -15,6 +8,14 @@ footer * {
     /* Design */
     background-color: #2e2d2d;
     color: #ffffed;
+}
+
+footer {
+    /* Layout */
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 footer a {
@@ -39,16 +40,16 @@ footer a {
 }
 
 /* Footer Lists for right-side element*/
-ul {
+footer ul {
     list-style: none;
 
 }
 
-ul li:nth-child(even) {
+footer ul li:nth-child(even) {
     text-align: left;
 }
 
-ul li:nth-child(odd) {
+footer ul li:nth-child(odd) {
     text-align: right;
 }
 

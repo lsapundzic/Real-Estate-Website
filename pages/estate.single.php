@@ -25,7 +25,7 @@ $resultCheck = mysqli_num_rows($result);
 
 // Second part of the safety measure
 if (!$resultCheck > 0) {
-    echo "ERROR: The SQL database could not be reached. The number of rows in the database is {$resultCheck}";
+    echo "<strong>ERROR: The SQL database could not be reached. The number of rows in the database is {$resultCheck} </strong>";
 } else {
 
     // Column is an associative array of SQL $result
@@ -51,15 +51,38 @@ if (!$resultCheck > 0) {
 
     <!-- Main Content -->
     <main>
+        <section class="overview">
+            <ul>
+                <li>
+                    <b>Region: </b><?php echo "{$lc_name}" ?>
+                </li>
+                <li>
+                    <b>Price: </b> <?php echo "{$lc_price}" ?>
+                </li>
+                <li>
+                    <b>Bedrooms: </b> <?php echo "{$lc_bedrooms}" ?>
+                </li>
+                <li>
+                    <b>Bathrooms: </b> <?php echo "{$lc_bathrooms}" ?>
+                </li>
+                <li>
+                    <b>Plot Size: </b> <?php echo "{$lc_plot}" ?>
+                </li>
+                <li>
+                    <b>Living Area: </b> <?php echo "{$lc_living}" ?>
+                </li>
+            </ul>
+        </section>
+
         <section>
-            <h3> Region: <?php echo "{$lc_name}" ?> </h3>
             <article>
                 <p>
-
                     <?php echo "{$lc_description}" ?>
                 </p>
             </article>
         </section>
+
+
     </main>
 
     <!-- Footer -->
