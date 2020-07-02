@@ -23,14 +23,15 @@ if (!$resultCheck > 0) {
     // Column is an associative array of SQL $result
     $col = mysqli_fetch_assoc($result);
 
-    $local_name = $col['name'];
-    $local_region = $col['region'];
-    $local_price = $col['price'];
-    $local_bedrooms = $col['bedrooms'];
-    $local_bathrooms = $col['bathrooms'];
-    $local_plot = $col['plot'];
-    $local_living = $col['living'];
-    $local_description = $col['description'];
+    // I prefer to have new variables
+    $lc_name = $col['name'];
+    $lc_region = $col['region'];
+    $lc_price = $col['price'];
+    $lc_bedrooms = $col['bedrooms'];
+    $lc_bathrooms = $col['bathrooms'];
+    $lc_plot = $col['plot'];
+    $lc_living = $col['living'];
+    $lc_description = $col['description'];
 }
 
 ?>
@@ -45,11 +46,11 @@ if (!$resultCheck > 0) {
     <!-- Main Content -->
     <main>
         <article>
-            <h3> <?php echo "{$local_name}" ?> </h3>
+            <h3> <?php echo "{$lc_name}" ?> </h3>
             <section>
                 <p>
 
-                    <?php echo "{$local_description}" ?>
+                    <?php echo "{$lc_description}" ?>
                 </p>
             </section>
         </article>
