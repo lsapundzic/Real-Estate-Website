@@ -9,7 +9,7 @@
     <title>Æera Real Estate</title>
 
     <!-- Main CSS Style -->
-    <link rel="stylesheet" href="../styles/style.css"/>
+    <link rel="stylesheet" href="../styles/main.css"/>
 
     <!--    Footer Style-->
     <link rel="stylesheet" href="../styles/footer.css">

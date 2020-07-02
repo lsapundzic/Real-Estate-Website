@@ -3,6 +3,11 @@ include_once "../database/includes/connection.inc.php";
 
 //Headers
 include "../components/head_a.php";
+?>
+    <!-- Additional stylesheet unique to this document-->
+    <link rel="stylesheet" href="../styles/estate.single.css">
+
+<?php
 include "../components/head_b.php";
 
 // Get ID passed from estate.list.php
@@ -41,9 +46,7 @@ if (!$resultCheck > 0) {
 
     <!-- Header-Banner -->
     <header>
-        <h1>YES! Your Reached It!</h1>
-        <h2>The Art of Architecture | Luxury Properties</h2>
-        <h2><?php echo "The passed id of this page is: {$id_local}" ?></h2>
+        <h1><?php echo "{$lc_name}" ?></h1>
     </header>
 
     <!-- Main Content -->
