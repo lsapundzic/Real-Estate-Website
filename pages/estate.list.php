@@ -4,6 +4,7 @@ include "../components/head_a.php";
 include_once "../database/includes/connection.inc.php";
 ?>
 
+<!-- Additional stylesheet unique to this document-->
 <link rel="stylesheet" href="../styles/estate.list.css"/>
 
 <?php
@@ -11,7 +12,7 @@ include "../components/head_b.php";
 
 // Getting data from SQL is here
 
-// Variable that holds SQL table
+// SQL search pattern
 $sql = "SELECT * FROM properties;";
 
 // Get a result of query $sql from $conn connection
