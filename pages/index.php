@@ -13,9 +13,9 @@ include "../components/head_b.php";
 
 <!-- Main Content -->
 <main>
-    <article>
+    <section>
         <h3>Welcome</h3>
-        <section>
+        <article>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
                 asperiores tenetur earum accusamus minus distinctio ut dolorum, iure
@@ -30,8 +30,8 @@ include "../components/head_b.php";
                 tenetur ullam? Molestias amet consectetur sequi labore eum
                 blanditiis dicta. Adipisci, culpa!
             </p>
-        </section>
-    </article>
+        </article>
+    </section>
 </main>
 
 <!-- Footer -->

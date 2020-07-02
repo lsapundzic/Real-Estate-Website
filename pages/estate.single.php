@@ -51,15 +51,15 @@ if (!$resultCheck > 0) {
 
     <!-- Main Content -->
     <main>
-        <article>
-            <h3> <?php echo "{$lc_name}" ?> </h3>
-            <section>
+        <section>
+            <h3> Region: <?php echo "{$lc_name}" ?> </h3>
+            <article>
                 <p>
 
                     <?php echo "{$lc_description}" ?>
                 </p>
-            </section>
-        </article>
+            </article>
+        </section>
     </main>
 
     <!-- Footer -->
