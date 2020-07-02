@@ -1,5 +1,5 @@
 <?php
-include "../components/header.estates.php";
+include "../components/estate.header.php";
 include_once "../database/includes/connection.inc.php";
 ?>
 
@@ -40,12 +40,11 @@ include_once "../database/includes/connection.inc.php";
             while ($row = mysqli_fetch_assoc($result)) {
 
                 // Database item id
-                $id = $row['id'];
+                $id = "id=" . $row['id'];
 
                 // Filling out the fields
-                echo "<div class='estate'><a href='estate.single.php'> <h3>" . $row['name'] . "</h3><h4>" . $row['region'] . "</h4><p>&euro;"
-                . $row['price'] . "</p><p>Bedrooms: " . $row['bedrooms'] . "</p></a></div>";
-//                echo $row['name'] . "<br>";
+                echo "<div class='estate'><a href='estate.single.php?" . $id . "' > <h3>" . $row['name'] . "</h3><h4>" . $row['region'] . "</h4><p>&euro;"
+                    . $row['price'] . "</p><p>Bedrooms: " . $row['bedrooms'] . "</p></a></div>";
             }
         }
         ?>

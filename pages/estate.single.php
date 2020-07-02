@@ -12,7 +12,7 @@ include "../components/header.php";
     <!-- Main Content -->
     <main>
         <article>
-            <h3>Welcome</h3>
+            <h3>Welcome to Individual Real Estate Page</h3>
             <section>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
