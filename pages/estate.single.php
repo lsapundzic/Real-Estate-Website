@@ -5,7 +5,7 @@ include "../components/header.php";
 
     <!-- Header-Banner -->
     <header>
-        <h1>Æera Real Estate Agency</h1>
+        <h1>YES! Your Reached It!</h1>
         <h2>The Art of Architecture | Luxury Properties</h2>
     </header>
 

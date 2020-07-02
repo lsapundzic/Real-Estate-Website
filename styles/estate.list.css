@@ -89,13 +89,6 @@ main {
     gap: 30px;
 }
 
-/* Links in showcase (which are enveloping individual cards) */
-.showcase a {
-    color: inherit;
-    text-decoration: none;
-}
-
-
 /* Individual Real Estate Card Properties */
 .estate {
     /* Layout */
@@ -110,6 +103,18 @@ main {
     /* Behavior */
     display: flex;
     flex-direction: column;
+}
+
+/* Links in showcase (which are enveloping individual cards) */
+.estate a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+}
+
+.estate h3 {
+    font-size: 3rem;
+    margin: 0;
 }
 
 .estate h4 {
