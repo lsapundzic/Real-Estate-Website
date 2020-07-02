@@ -53,7 +53,7 @@ if (!$resultCheck > 0) {
     <!-- Main Content -->
     <main>
         <section>
-            <img src="https://via.placeholder.com/200" alt="Most presentable image of the property">
+            <img src="https://via.placeholder.com/200" alt="Best available image of the property">
         </section>
         <section class="overview">
             <ul>
@@ -67,10 +67,10 @@ if (!$resultCheck > 0) {
                     <b>Bathrooms: </b> <?php echo "{$lc_bathrooms}" ?>
                 </li>
                 <li>
-                    <b>Plot Size: </b> <?php echo "{$lc_plot}" ?>
+                    <b>Plot Size: </b> <?php echo "{$lc_plot}" ?> Acres
                 </li>
                 <li>
-                    <b>Living Area: </b> <?php echo "{$lc_living}" ?>
+                    <b>Living Area: </b> <?php echo "{$lc_living}" ?> m<sup>3</sup>
                 </li>
             </ul>
         </section>

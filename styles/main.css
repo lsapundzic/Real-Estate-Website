@@ -2,108 +2,109 @@
 
 /* Remove default formatting and adding overall rules*/
 * {
-  /* Reset */
-  padding: 0;
-  margin: 0;
+    /* Reset */
+    padding: 0;
+    margin: 0;
 
-  /* Fonts */
-  font-size: 10px;
-  font-family: "Nunito Sans", sans-serif;
+    /* Fonts */
+    font-size: 10px;
+    font-family: "Nunito Sans", sans-serif;
 
-  /* Design */
-  background-color: #ffffed;
+    /* Design */
+    background-color: #ffffed;
 
-  /* Behavior */
-  box-sizing: border-box;
+    /* Behavior */
+    box-sizing: border-box;
 }
 
 /* $$$$$$$$   Navigation    $$$$$$$ */
 
 nav {
-  /* Behavior */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    /* Behavior */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav a {
-  /* Font */
-  font-size: 2rem;
-  font-weight: bold;
+    /* Font */
+    font-size: 2rem;
+    font-weight: bold;
 
-  /* Layout */
-  margin: 20px 40px 20px 40px;
-  padding: 5px 10px 5px 10px;
-  border: 1px solid #2e2d2d;
-  border-radius: 5px;
+    /* Layout */
+    margin: 20px 40px 20px 40px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #2e2d2d;
+    border-radius: 5px;
 
-  /* Design */
-  color: #ffffed;
-  background-color: #2e2d2d;
-  outline: none;
-  text-decoration: none;
+    /* Design */
+    color: #ffffed;
+    background-color: #2e2d2d;
+    outline: none;
+    text-decoration: none;
 }
 
 nav > a:visited,
 nav > a:active {
-  /* Design */
-  outline: none;
-  text-decoration: none;
-  color: #ffffed;
-  background-color: #2e2d2d;
+    /* Design */
+    outline: none;
+    text-decoration: none;
+    color: #ffffed;
+    background-color: #2e2d2d;
 }
 
 /* nav > a:focus, */
 nav > a:hover {
-  /* Design */
-  color: black;
-  background-color: #ffffed;
-  font-weight: bold;
-  border: 1px solid #2e2d2d;
-  border-radius: 5px;
+    /* Design */
+    color: black;
+    background-color: #ffffed;
+    font-weight: bold;
+    border: 1px solid #2e2d2d;
+    border-radius: 5px;
 }
 
 /* $$$$$$$$   Header    $$$$$$$ */
 
 header {
-  /* Layout */
-  text-align: center;
-  margin: 150px;
+    /* Layout */
+    text-align: center;
+    margin: 150px;
 }
 
 h1 {
-  /* Font */
-  font-size: 7rem;
-  font-family: "Oswald", sans-serif;
-  color: #2e2d2d;
+    /* Font */
+    font-size: 7rem;
+    font-family: "Oswald", sans-serif;
+    color: #2e2d2d;
 }
 
 h2 {
-  /* Font */
-  font-size: 3.5rem;
-  color: #2e2d2d;
+    /* Font */
+    font-size: 3.5rem;
+    color: #2e2d2d;
 }
 
 /* $$$$$$$$   Body    $$$$$$$ */
 h3 {
-  /* Font */
-  font-size: 3rem;
-  margin-bottom: 30px;
-  color: #2e2d2d;
+    /* Font */
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #2e2d2d;
 }
 
+/* TODO: section is better defined with with than with margin. Maybe */
 section {
-  /* Layout */
-  margin: 30px 11vw 200px 11vw;
+    /* Layout */
+    margin: 30px 11vw 200px 11vw;
 }
 
 p {
-  /* Font */
-  font-size: 2rem;
-  color: #2e2d2d;
+    /* Font */
+    font-size: 2rem;
+    color: #2e2d2d;
 
-  /* Layout */
-  margin-bottom: 2rem;
+    /* Layout */
+    margin-bottom: 2rem;
 }
 
 

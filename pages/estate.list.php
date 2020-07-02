@@ -54,7 +54,8 @@ $resultCheck = mysqli_num_rows($result);
                 $id = "id=" . $row['id'];
 
                 // Filling out the fields
-                echo "<div class='estate'><a href='estate.present.php?id={$row['id']}'> <h3>{$row['name']}</h3>
+                echo "<div class='estate'><a href='estate.present.php?id={$row['id']}'><h3>{$row['name']}</h3>
+                        <img src='https://via.placeholder.com/380' alt='An icon of {$row["name"]}'>
                         <h4> {$row['region']}</h4><p>&euro;{$row['price']}</p><p>Bedrooms: {$row['bedrooms']}</p></a></div>";
             }
         } else {

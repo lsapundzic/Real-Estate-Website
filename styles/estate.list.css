@@ -125,3 +125,8 @@ main {
 .estate p {
     margin: 0;
 }
+
+/* Estate image manipulation */
+.estate img {
+    /*width: 100%;*/
+}
