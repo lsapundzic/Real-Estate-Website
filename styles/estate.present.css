@@ -1,0 +1,66 @@
+/* Stylesheet for property presentation */
+
+/* $$$ IMAGE STYLING */
+section > img {
+    width: 100%;
+    height: 700px;
+}
+
+/* $$$ Overview Box at the top $$$ */
+
+.overview {
+    /* Font*/
+    font-size: 2.2rem;
+
+    /* Layout */
+    width: 30vw;
+    border: 1px solid #2e2d2d;
+    padding: 20px;
+
+    /* Design */
+    background-color: #2e2d2d;
+    border-radius: 5px;
+
+    /* Behavior */
+    display: inline-block;
+
+}
+
+.overview b {
+    /* Font */
+    font-size: inherit;
+    font-weight: bold;
+
+    /* Design */
+    background-color: inherit;
+    color: #ffffed;
+}
+
+.overview ul {
+    /* Font */
+    font-size: inherit;
+    background-color: inherit;
+
+    /* Design */
+    list-style: none;
+}
+
+.overview ul li {
+    /* Font */
+    font-size: inherit;
+
+    /* Layout */
+    padding-bottom: 20px;
+
+    /* Design */
+    background-color: inherit;
+    color: #ffffed;
+}
+
+/* $$$ CONTENT $$$ */
+section > h3 {
+    /* Font */
+    font-size: 3.3rem;
+    text-align: center;
+
+}

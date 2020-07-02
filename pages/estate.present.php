@@ -5,7 +5,7 @@ include_once "../database/includes/connection.inc.php";
 include "../components/head_a.php";
 ?>
     <!-- Additional stylesheet unique to this document-->
-    <link rel="stylesheet" href="../styles/estate.single.css">
+    <link rel="stylesheet" href="../styles/estate.present.css">
 
 <?php
 include "../components/head_b.php";
@@ -47,15 +47,16 @@ if (!$resultCheck > 0) {
     <!-- Header-Banner -->
     <header>
         <h1><?php echo "{$lc_name}" ?></h1>
+        <h2><?php echo "{$lc_region}" ?></h2>
     </header>
 
     <!-- Main Content -->
     <main>
+        <section>
+            <img src="https://via.placeholder.com/200" alt="Most presentable image of the property">
+        </section>
         <section class="overview">
             <ul>
-                <li>
-                    <b>Region: </b><?php echo "{$lc_region}" ?>
-                </li>
                 <li>
                     <b>Price: &euro;</b> <?php echo "{$lc_price}" ?>
                 </li>
@@ -75,6 +76,7 @@ if (!$resultCheck > 0) {
         </section>
 
         <section>
+            <h3>Description</h3>
             <article>
                 <p>
                     <?php echo "{$lc_description}" ?>
