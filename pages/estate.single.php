@@ -1,6 +1,9 @@
 <?php
 include_once "../database/includes/connection.inc.php";
-include "../components/header.standard.php";
+
+//Headers
+include "../components/head_a.php";
+include "../components/head_b.php";
 
 // Get ID passed from estate.list.php
 $id_local = $_GET['id'];

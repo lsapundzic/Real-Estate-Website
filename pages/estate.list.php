@@ -1,6 +1,13 @@
 <?php
-include "../components/header.estate.php";
+//Headers
+include "../components/head_a.php";
 include_once "../database/includes/connection.inc.php";
+?>
+
+<link rel="stylesheet" href="../styles/estate.list.css"/>
+
+<?php
+include "../components/head_b.php";
 
 // Getting data from SQL is here
 
