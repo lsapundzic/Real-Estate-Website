@@ -1,12 +1,16 @@
 <?php
 include_once "../database/includes/connection.inc.php";
 include "../components/header.php";
+
+$db_id = $_GET['id'];
+
 ?>
 
     <!-- Header-Banner -->
     <header>
         <h1>YES! Your Reached It!</h1>
         <h2>The Art of Architecture | Luxury Properties</h2>
+        <h2><?php echo "The passed id of this page is: {$db_id}" ?></h2>
     </header>
 
     <!-- Main Content -->
