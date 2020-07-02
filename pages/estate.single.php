@@ -54,10 +54,10 @@ if (!$resultCheck > 0) {
         <section class="overview">
             <ul>
                 <li>
-                    <b>Region: </b><?php echo "{$lc_name}" ?>
+                    <b>Region: </b><?php echo "{$lc_region}" ?>
                 </li>
                 <li>
-                    <b>Price: </b> <?php echo "{$lc_price}" ?>
+                    <b>Price: &euro;</b> <?php echo "{$lc_price}" ?>
                 </li>
                 <li>
                     <b>Bedrooms: </b> <?php echo "{$lc_bedrooms}" ?>
