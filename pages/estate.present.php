@@ -40,6 +40,7 @@ if (!$resultCheck > 0) {
     $lc_plot = $col['plot'];
     $lc_living = $col['living'];
     $lc_description = $col['description'];
+    $lc_image = $col['link'];
 }
 
 ?>
@@ -53,7 +54,7 @@ if (!$resultCheck > 0) {
     <!-- Main Content -->
     <main>
         <section>
-            <img src="https://via.placeholder.com/200" alt="Best available image of the property">
+            <img src="<?php echo "{$lc_image}" ?>" alt="Best available image of the property">
         </section>
         <section class="overview">
             <ul>
