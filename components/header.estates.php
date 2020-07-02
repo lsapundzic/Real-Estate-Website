@@ -17,9 +17,6 @@
     <!-- Page Specific Style -->
     <link rel="stylesheet" href="../styles/estate.list.css"/>
 
-    <!-- Style for Estate Cards -->
-    <link rel="stylesheet" href="../styles/estate.card.css"/>
-
         <!-- JS Script for JSON -->
     <script src="../scripts/getdata.js" defer></script>
 
