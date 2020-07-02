@@ -1,5 +1,8 @@
 <?php
-include "../components/header.standard.php"
+
+//Headers
+include "../components/head_a.php";
+include "../components/head_b.php";
 ?>
 
 <!-- Header-Banner -->
