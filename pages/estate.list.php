@@ -39,9 +39,12 @@ include_once "../database/includes/connection.inc.php";
             // Assign data from $result to an array $row
             while ($row = mysqli_fetch_assoc($result)) {
 
+                // Database item id
+                $id = $row['id'];
+
                 // Filling out the fields
-                echo "<div class='estate'><h3>" . $row['name'] . "</h3><h4>" . $row['region'] . "</h4><p>&euro;"
-                    . $row['price'] . "</p><p>Bedrooms: " . $row['bedrooms'] . "</p></div>";
+                echo "<div class='estate'><a href='estate.single.php'> <h3>" . $row['name'] . "</h3><h4>" . $row['region'] . "</h4><p>&euro;"
+                . $row['price'] . "</p><p>Bedrooms: " . $row['bedrooms'] . "</p></a></div>";
 //                echo $row['name'] . "<br>";
             }
         }

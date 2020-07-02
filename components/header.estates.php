@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="../styles/footer.css">
 
     <!-- Page Specific Style -->
-    <link rel="stylesheet" href="../styles/realestate.css"/>
+    <link rel="stylesheet" href="../styles/estate.list.css"/>
 
     <!-- Style for Estate Cards -->
-    <link rel="stylesheet" href="../styles/estatecard.css"/>
+    <link rel="stylesheet" href="../styles/estate.card.css"/>
 
         <!-- JS Script for JSON -->
     <script src="../scripts/getdata.js" defer></script>
@@ -34,7 +34,7 @@
 <nav>
     <a href="../pages/index.php">Home</a>
     <a href="../pages/about.php">About</a>
-    <a href="../pages/realestate.php">Real Estate</a>
+    <a href="../pages/estate.list.php">Real Estate</a>
     <a href="../pages/lifestyle.php">Lifestyle</a>
     <a href="../pages/contact.php">Contact</a>
     <a href="../pages/login.php">Login</a>
