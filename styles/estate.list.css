@@ -80,6 +80,7 @@ main {
     /* Layout */
     padding-bottom: 100px;
 
+    /* TODO: This flex works like total shit */
     /* Behavior */
     flex: 7 930px;
 
@@ -88,6 +89,7 @@ main {
     grid-auto-rows: minmax(400px, auto);
     gap: 30px;
 }
+
 
 /* Individual Real Estate Card Properties */
 .estate {
