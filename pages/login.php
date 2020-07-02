@@ -1,5 +1,5 @@
 <?php
-include "../components/header.php";
+include "../components/header.standard.php";
 ?>
 
 <h2>Login</h2>

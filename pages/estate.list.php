@@ -1,5 +1,5 @@
 <?php
-include "../components/estate.header.php";
+include "../components/header.estate.php";
 include_once "../database/includes/connection.inc.php";
 
 // Getting data from SQL is here
@@ -49,6 +49,8 @@ $resultCheck = mysqli_num_rows($result);
                 echo "<div class='estate'><a href='estate.single.php?id={$row['id']}'> <h3>{$row['name']}</h3>
                         <h4> {$row['region']}</h4><p>&euro;{$row['price']}</p><p>Bedrooms: {$row['bedrooms']}</p></a></div>";
             }
+        } else {
+            echo "<h1>ERROR: The SQL database could not be reached</h1>";
         }
         ?>
     </div>

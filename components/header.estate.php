@@ -32,7 +32,6 @@
     <a href="../pages/index.php">Home</a>
     <a href="../pages/about.php">About</a>
     <a href="../pages/estate.list.php">Real Estate</a>
-    <a href="../pages/lifestyle.php">Lifestyle</a>
     <a href="../pages/contact.php">Contact</a>
     <a href="../pages/login.php">Login</a>
 </nav>

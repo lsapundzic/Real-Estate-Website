@@ -1,6 +1,6 @@
 <?php
 include_once "../database/includes/connection.inc.php";
-include "../components/header.php";
+include "../components/header.standard.php";
 
 // Get ID passed from estate.list.php
 $id_local = $_GET['id'];
@@ -16,14 +16,21 @@ $result = mysqli_query($conn, $sql_local);
 $resultCheck = mysqli_num_rows($result);
 
 // Second part of the safety measure
-if ($resultCheck > 0) {
+if (!$resultCheck > 0) {
+    echo "ERROR: The SQL database could not be reached. The number of rows in the database is {$resultCheck}";
+} else {
 
-    // Keep calling from DB as long as there is data
-    // Assign data from $result to an array $row
-    while ($row = mysqli_fetch_assoc($result)) {
+    // Column is an associative array of SQL $result
+    $col = mysqli_fetch_assoc($result);
 
-        $row_data = $row['name'];
-    }
+    $local_name = $col['name'];
+    $local_region = $col['region'];
+    $local_price = $col['price'];
+    $local_bedrooms = $col['bedrooms'];
+    $local_bathrooms = $col['bathrooms'];
+    $local_plot = $col['plot'];
+    $local_living = $col['living'];
+    $local_description = $col['description'];
 }
 
 ?>
@@ -38,28 +45,11 @@ if ($resultCheck > 0) {
     <!-- Main Content -->
     <main>
         <article>
-            <h3>Welcome to Individual Real Estate Page</h3>
+            <h3> <?php echo "{$local_name}" ?> </h3>
             <section>
                 <p>
-                    <?php
 
-                    echo "*DISPLAYED HERE*{$row_data}";
-                    ?>
-                    <br>
-                    <br>
-                    <br>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
-                    asperiores tenetur earum accusamus minus distinctio ut dolorum, iure
-                    iusto illo facere autem tempora provident vero rerum. Saepe natus
-                    est placeat modi inventore mollitia reprehenderit praesentium
-                    cumque. Eos impedit consectetur saepe ad blanditiis repudiandae ab,
-                    architecto harum ipsam quos voluptates eaque dolorum veniam totam!
-                    Nisi libero quo corrupti omnis, neque sapiente, qui, sunt temporibus
-                    nesciunt quisquam nulla atque est inventore totam voluptas maiores
-                    quam autem ipsum odio? Debitis quam fugiat reprehenderit corporis at
-                    necessitatibus aperiam dicta, eligendi aspernatur. Explicabo,
-                    tenetur ullam? Molestias amet consectetur sequi labore eum
-                    blanditiis dicta. Adipisci, culpa!
+                    <?php echo "{$local_description}" ?>
                 </p>
             </section>
         </article>

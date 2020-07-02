@@ -1,5 +1,5 @@
 <?php
-include "../components/header.php";
+include "../components/header.standard.php";
 ?>
 <header>
     <h1>Æera Real Estate Agency</h1>
