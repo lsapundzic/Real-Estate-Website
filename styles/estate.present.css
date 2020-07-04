@@ -60,7 +60,7 @@ section > img {
 }
 
 
-/* TODO: Suggest using flexbox*/
+/* TODO: Suggest using grid*/
 .overview ul li {
     /* Font */
     font-size: inherit;
