@@ -13,7 +13,7 @@ include "../components/head_b.php";
 // Getting data from SQL is here
 
 // SQL search pattern
-$sql = "SELECT * FROM properties;";
+$sql = "SELECT * FROM properties";
 
 // Get a result of query $sql from $conn connection
 $result = mysqli_query($conn, $sql);

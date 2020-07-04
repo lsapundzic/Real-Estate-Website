@@ -1,6 +1,6 @@
 /* Stylesheet for property presentation */
 
-/* Overriding section elements */
+/* Overriding section elements which are general content containers */
 
 section {
     margin-top: 50px;
@@ -62,7 +62,7 @@ section > img {
     font-size: inherit;
 
     /* Layout */
-    width: 240px;
+    padding: 40px;
 
     /* Design */
     background-color: inherit;
