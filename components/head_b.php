@@ -11,9 +11,21 @@
 <!-- Navbar -->
 
 <nav>
-    <a href="../pages/index.php">Home</a>
-    <a href="../pages/about.php">About</a>
-    <a href="../pages/estate.list.php">Real Estate</a>
-    <a href="../pages/contact.php">Contact</a>
-    <a href="../pages/login.php">Login</a>
+    <ul>
+        <li>
+            <a href="../pages/index.php">Home</a>
+        </li>
+        <li>
+            <a href="../pages/about.php">About</a>
+        </li>
+        <li>
+            <a href="../pages/estate.list.php">Real Estate</a>
+        </li>
+        <li>
+            <a href="../pages/contact.php">Contact</a>
+        </li>
+        <li>
+            <a href="../pages/login.php">Login</a>
+        </li>
+    </ul>
 </nav>
