@@ -16,7 +16,7 @@ include "../components/head_b.php";
         <h3>Contact Us</h3>
         <article>
             <p>
-                This is the page where they fill out a form and send it to me
+                CONTACT FORM CURRENTLY DISABLED
             </p>
         </article>
     </section>
