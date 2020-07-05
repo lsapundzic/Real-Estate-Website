@@ -41,10 +41,7 @@
             <li>Hong Kong</li>
             <li>Seattle</li>
         </ul>
-        <div id="credits">Project for the Faculty of Information Studies in Novo Mesto<br>
-            Project by Petar B. & Luka S.<br>
-            Special thanks to Denis P.
-        </div>
+
     </div>
 </footer>
 </body>

@@ -54,13 +54,6 @@ footer ul li:nth-child(odd) {
     text-align: right;
 }
 
-/* Project credits */
-#credits {
-    padding-top: 45px;
-    text-align: end;
-    font-size: 1.1rem;
-}
-
 
 /* This part is for external objects like YouTube videos and Google Maps */
 
