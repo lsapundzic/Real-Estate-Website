@@ -25,7 +25,6 @@ $resultCheck = mysqli_num_rows($result);
 <!-- Main Content -->
 <main>
     <aside class="filter">
-        <h4>Filter Content:</h4>
         <div class="buttonsBox">
             <div class="bttn" id="all">ALL</div>
             <div class="bttn" id="littoral">Littoral</div>
