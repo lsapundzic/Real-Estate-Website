@@ -79,7 +79,7 @@ main {
     /* Behavior */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-auto-rows: minmax(380px, auto);
+    grid-auto-rows: minmax(360px, auto);
     gap: 15px;
 }
 

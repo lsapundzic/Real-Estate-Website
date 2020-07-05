@@ -1,15 +1,15 @@
 <footer>
     <!-- Left Footer -->
     <div class="ft-slice">
-        Contact us: <br/> </br>
+        Contact us: <br/><br/>
         <address>
 
             Glavni trg 12 <br/>
             8000 Novo mesto <br/>
             Slovenia <br/>
-            <a href="mailto:sales@aera.si">sales@aera.si</a> <br/>
+            <a href="mailto:sales@aera.si">contact@aera.si</a> <br/>
         </address>
-        </br>
+        <br/>
         Or find us on social media: <br/>
         <a href="#">Facebook Page</a> |
         <a href="#">Instagram Page</a> <br/>
