@@ -71,7 +71,7 @@ if (!$resultCheck > 0) {
                     <b>Plot Size: </b> <?php echo "{$lc_plot}" ?> Acres
                 </li>
                 <li>
-                    <b>Living Area: </b> <?php echo "{$lc_living}" ?> m<sup>3</sup>
+                    <b>Living Area: </b> <?php echo "{$lc_living}" ?> m3
                 </li>
             </ul>
         </section>

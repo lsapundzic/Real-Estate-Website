@@ -53,14 +53,12 @@ section > img {
     list-style: none;
 
     /* Behavior */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-flow: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
 
 
-/* TODO: Suggest using grid*/
+
 .overview ul li {
     /* Font */
     font-size: inherit;
@@ -72,14 +70,6 @@ section > img {
     background-color: inherit;
     color: #ffffed;
 
-    /* Behavior */
-    flex: 1 220px;
-}
-
-/* TODO: This is not an actual solution, superscript still sticks out*/
-.overview ul li:nth-child(5) {
-    /* Layout */
-    margin-top: -4.16px;
 }
 
 .overview ul li sup {
