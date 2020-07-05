@@ -125,11 +125,9 @@ nav a:hover {
         border-radius: 5px;
         padding: 7px;
 
-        /* Behavior */
     }
 
     .dropdown-content {
-
         /* Design */
         background-color: #2e2d2d;
 
@@ -147,9 +145,6 @@ nav a:hover {
         box-shadow: 3px 3px 6px black;
     }
 
-    .dropdown-content ul li {
-
-    }
 
     .dropdown-content ul li a {
         /* Font */
@@ -161,6 +156,7 @@ nav a:hover {
         text-decoration: none;
     }
 
+    /* THIS IS WHERE THE MAGIC HAPPENS */
     /* Change color of dropdown links on hover */
     .dropdown-content a:hover {
         background-color: yellowgreen;
@@ -172,7 +168,9 @@ nav a:hover {
     }
 }
 
+
 /* $$$$$$$$   Header    $$$$$$$ */
+
 
 header {
     /* Layout */
@@ -201,7 +199,7 @@ h3 {
     color: #2e2d2d;
 }
 
-/* TODO: section is better defined with with than with margin. Maybe */
+/* Section is the main content component */
 section {
     /* Layout */
     margin: 30px 11vw 200px 11vw;
