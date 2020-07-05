@@ -159,7 +159,8 @@ nav a:hover {
     /* THIS IS WHERE THE MAGIC HAPPENS */
     /* Change color of dropdown links on hover */
     .dropdown-content a:hover {
-        background-color: yellowgreen;
+        background-color: #2e2d2d;
+        color: #ffffed;
     }
 
     /* Show the dropdown menu on hover */
