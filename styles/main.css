@@ -26,8 +26,6 @@ nav {
 }
 
 nav ul {
-    /* Display*/
-
 
     /* Styling */
     list-style: none;
@@ -82,6 +80,96 @@ nav a:hover {
     font-weight: bold;
     border: 1px solid #2e2d2d;
     border-radius: 5px;
+}
+
+/* This is navbar for mobile only. It is switched off until media query is activated*/
+.mobile-nav {
+    display: none;
+}
+
+/* Media query for navigation */
+@media screen and (max-width: 930px) {
+    /* Standard navbar is switched off*/
+    nav {
+        display: none;
+    }
+
+    /* Mobile navbar takes over*/
+    .mobile-nav {
+        display: block;
+    }
+
+    .dropdown-menu {
+        /* Design */
+        background-color: #2e2d2d;
+
+        /* Layout */
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        /* Behavior */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dropdown-button {
+        /* Font */
+        font-size: 3rem;
+        color: #ffffed;
+
+        /* Layout */
+        text-align: center;
+        background-color: #2e2d2d;
+        border: 1px solid #ffffed;
+        border-radius: 5px;
+        padding: 7px;
+
+        /* Behavior */
+    }
+
+    .dropdown-content {
+
+        /* Design */
+        background-color: #2e2d2d;
+
+        /* Layout*/
+        position: absolute;
+        min-width: 220px;
+
+        /* Behavior */
+        display: none;
+    }
+
+    .dropdown-content ul {
+        /* Design */
+        list-style: none;
+        box-shadow: 3px 3px 6px black;
+    }
+
+    .dropdown-content ul li {
+
+    }
+
+    .dropdown-content ul li a {
+        /* Font */
+        font-size: 2.8rem;
+        color: #2e2d2d;
+
+        /* Behavior */
+        display: block;
+        text-decoration: none;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: yellowgreen;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown-button:hover .dropdown-content {
+        display: block;
+    }
 }
 
 /* $$$$$$$$   Header    $$$$$$$ */
