@@ -26,7 +26,7 @@ section > img {
 
     /* Layout */
     border: 1px solid #2e2d2d;
-    padding: 0 8px 0 10px;
+    /*padding: 0 8px 0 8px;*/
 
     /* Design */
     background-color: #2e2d2d;
@@ -54,7 +54,7 @@ section > img {
 
     /* Behavior */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
 
 
@@ -70,6 +70,8 @@ section > img {
     background-color: inherit;
     color: #ffffed;
 
+    /* TEMPORARY FOR NOW */
+    /*text-align: center;*/
 }
 
 .overview ul li sup {

@@ -20,14 +20,31 @@
 /* $$$$$$$$   Navigation    $$$$$$$ */
 
 nav {
-    /* Behavior */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 30px 21vw 200px 21vw;
+    /* Display */
+
 }
 
-nav li {
+nav ul {
+    /* Display*/
+
+
+    /* Styling */
     list-style: none;
+
+    /* Behavior */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    row-gap: 30px;
+}
+
+nav ul li {
+    /* Layout */
+
+    /* Behavior */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 
@@ -37,7 +54,7 @@ nav a {
     font-weight: bold;
 
     /* Layout */
-    margin: 20px 40px 20px 40px;
+
     padding: 5px 10px 5px 10px;
     border: 1px solid #2e2d2d;
     border-radius: 5px;
@@ -49,8 +66,8 @@ nav a {
     text-decoration: none;
 }
 
-nav > a:visited,
-nav > a:active {
+nav a:visited,
+nav a:active {
     /* Design */
     outline: none;
     text-decoration: none;
@@ -58,8 +75,7 @@ nav > a:active {
     background-color: #2e2d2d;
 }
 
-/* nav > a:focus, */
-nav > a:hover {
+nav a:hover {
     /* Design */
     color: black;
     background-color: #ffffed;
