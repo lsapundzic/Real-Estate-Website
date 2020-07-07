@@ -226,4 +226,9 @@ p {
     margin-bottom: 2rem;
 }
 
+/* Rules for image behavior throughout the entire site */
+img {
+    width: 100%;
+    box-shadow: 3px 3px 6px black;
+}
 

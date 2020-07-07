@@ -6,7 +6,7 @@
 const cards = document.querySelectorAll(".estate");
 
 // Select all buttons and add event listeners
-const all = document.querySelector("#all").addEventListener("click", displayAll);
+const all = document.querySelector("#all").addEventListener("click", refreshList);
 const littoral = document.querySelector("#littoral").addEventListener("click", function () {
     searchList("Littoral");
 });
@@ -30,7 +30,7 @@ const prekmurje = document.querySelector("#prekmurje").addEventListener("click",
 });
 
 
-function displayAll() {
+function refreshList() {
     for (let i = 0; i < cards.length; i++) {
         // .innerText is crucial here, makes the comparison possible
         cards[i].style.display = "block";
@@ -39,6 +39,9 @@ function displayAll() {
 }
 
 function searchList(x) {
+    // Refreshes the list so that the searchList function can start anew
+    refreshList();
+
     for (let i = 0; i < cards.length; i++) {
         // .innerText is crucial here, makes the comparison possible
         if (cards[i].querySelector("h4").innerText !== x) {

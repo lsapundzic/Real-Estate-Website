@@ -26,7 +26,7 @@ $resultCheck = mysqli_num_rows($result);
     <main>
         <aside class="filter">
             <div class="buttonsBox">
-                <button class="bttn" id="all">ALL</button>
+                <button class="bttn" id="all">Display All</button>
                 <button class="bttn" id="littoral">Littoral</button>
                 <button class="bttn" id="upper">Upper Carniola</button>
                 <button class="bttn" id="inner">Inner Carniola</button>
@@ -52,8 +52,8 @@ $resultCheck = mysqli_num_rows($result);
                     $id = "id=" . $row['id'];
 
                     // Filling out the fields
-                    echo "<div class='estate'><a href='estate.present.php?id={$row['id']}'><h3>{$row['name']}</h3>
-                        <img src='{$row['link']}' alt='An icon of {$row['name']}'>
+                    echo "<div class='estate'><a href='estate.present.php?id={$row['id']}'>
+                        <img src='{$row['link']}' alt='An icon of {$row['name']}'> <h3>{$row['name']}</h3>
                         <h4> {$row['region']}</h4><p>&euro;{$row['price']}</p><p>Bedrooms: {$row['bedrooms']}</p></a></div>";
                 }
             } else {
