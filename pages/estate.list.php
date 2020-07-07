@@ -34,7 +34,6 @@ $resultCheck = mysqli_num_rows($result);
                 <button class="bttn" id="carinthia">Carinthia</button>
                 <button class="bttn" id="styria">Styria</button>
                 <button class="bttn" id="prekmurje">Prekmurje</button>
-
             </div>
         </aside>
 
