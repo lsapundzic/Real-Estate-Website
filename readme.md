@@ -6,6 +6,8 @@
 
 <http://realestateproj.rf.gd/>
 
+It may be necessary to hard-refresh (Ctrl+Shift+R) the page for it to load accordingly. Sometimes the CSS somehow doesn't fully load.
+
 ### Site Mechanics
 
 - The website works only with core technologies, vanilla HTML, CSS, JS, and PHP. No Bootstrap or jQuery were used.
