@@ -2,7 +2,23 @@
 
 ## Project for Faculty of Information Studies in Novo Mesto
 
-### Editing Rules for Page Developers
+### See it live here:
+
+<http://realestateproj.rf.gd/>
+
+### Site Mechanics
+
+- The website works only with core technologies, vanilla HTML, CSS, JS, and PHP. No Bootstrap or jQuery were used.
+
+- Real estate content is served with PHP from an SQL database. Content is automatically generated on two pages and sub-content is accessed through string queries.
+
+### TODO
+
+- Fix page footer.
+
+- Add contact page.
+
+- Add page content.
 
 #### **CSS Editing**
 
