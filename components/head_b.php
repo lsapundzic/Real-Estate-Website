@@ -24,9 +24,6 @@
         <li>
             <a href="../pages/contact.php">Contact</a>
         </li>
-        <li>
-            <a href="../pages/login.php">Login</a>
-        </li>
     </ul>
 </nav>
 
@@ -48,7 +45,6 @@
                     <li>
                         <a href="../pages/contact.php">Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>

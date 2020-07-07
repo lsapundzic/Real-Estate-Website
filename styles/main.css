@@ -32,7 +32,7 @@ nav ul {
 
     /* Behavior */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(160px, 1fr));
     row-gap: 30px;
 }
 
@@ -88,7 +88,7 @@ nav a:hover {
 }
 
 /* Media query for navigation */
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 768px) {
     /* Standard navbar is switched off*/
     nav {
         display: none;
@@ -169,7 +169,6 @@ nav a:hover {
     }
 }
 
-
 /* $$$$$$$$   Header    $$$$$$$ */
 
 
@@ -192,6 +191,17 @@ h2 {
     color: #2e2d2d;
 }
 
+/* Media queries for header */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+    }
+}
+
 /* $$$$$$$$   Body    $$$$$$$ */
 h3 {
     /* Font */
@@ -199,6 +209,7 @@ h3 {
     margin-bottom: 30px;
     color: #2e2d2d;
 }
+
 
 /* Section is the main content component */
 section {
