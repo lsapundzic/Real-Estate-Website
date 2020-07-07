@@ -20,9 +20,11 @@
 
 - Add page content.
 
-#### **CSS Editing**
+- Clean up CSS and mark its structure according to the rules below
 
-Every CSS element should contain the following order of information:
+#### **CSS Structure**
+
+CSS properties should have the following structure:
 [1] Font
 [2] Layout
 [3] Design
