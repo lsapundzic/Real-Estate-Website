@@ -26,14 +26,14 @@ $resultCheck = mysqli_num_rows($result);
     <main>
         <aside class="filter">
             <div class="buttonsBox">
-                <div class="bttn" id="all">ALL</div>
-                <div class="bttn" id="littoral">Littoral</div>
-                <div class="bttn" id="upper">Upper Carniola</div>
-                <div class="bttn" id="inner">Inner Carniola</div>
-                <div class="bttn" id="lower">Lower Carniola</div>
-                <div class="bttn" id="carinthia">Carinthia</div>
-                <div class="bttn" id="styria">Styria</div>
-                <div class="bttn" id="prekmurje">Prekmurje</div>
+                <button class="bttn" id="all">ALL</button>
+                <button class="bttn" id="littoral">Littoral</button>
+                <button class="bttn" id="upper">Upper Carniola</button>
+                <button class="bttn" id="inner">Inner Carniola</button>
+                <button class="bttn" id="lower">Lower Carniola</button>
+                <button class="bttn" id="carinthia">Carinthia</button>
+                <button class="bttn" id="styria">Styria</button>
+                <button class="bttn" id="prekmurje">Prekmurje</button>
 
             </div>
         </aside>
