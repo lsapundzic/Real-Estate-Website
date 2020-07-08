@@ -24,6 +24,8 @@ It may be necessary to hard-refresh (Ctrl+Shift+R) the page for it to load accor
 
 - Clean up CSS and mark its structure according to the rules below
 
+- Add a search bar.
+
 #### **CSS Structure**
 
 CSS properties should have the following structure:

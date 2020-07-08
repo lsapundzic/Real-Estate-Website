@@ -32,10 +32,8 @@ const prekmurje = document.querySelector("#prekmurje").addEventListener("click",
 
 function refreshList() {
     for (let i = 0; i < cards.length; i++) {
-        // .innerText is crucial here, makes the comparison possible
         cards[i].style.display = "block";
     }
-    // alert("Signal from Display All");
 }
 
 function searchList(x) {
@@ -48,5 +46,4 @@ function searchList(x) {
             cards[i].style.display = "none";
         }
     }
-    // alert("Signal from Elsewhere: " + x);
 }
