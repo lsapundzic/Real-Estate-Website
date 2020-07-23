@@ -21,7 +21,7 @@
 
 nav {
     margin: 30px 21vw 200px 21vw;
-    /* Display */
+
 
 }
 
@@ -32,7 +32,7 @@ nav ul {
 
     /* Behavior */
     display: grid;
-    grid-template-columns: repeat(4, minmax(160px, 1fr));
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
     row-gap: 30px;
 }
 
