@@ -16,9 +16,6 @@
             <a href="../pages/index.php">Home</a>
         </li>
         <li>
-            <a href="../pages/about.php">About</a>
-        </li>
-        <li>
             <a href="../pages/estate.list.php">Real Estate</a>
         </li>
         <li>
@@ -35,9 +32,6 @@
                 <ul>
                     <li>
                         <a href="../pages/index.php">Home</a>
-                    </li>
-                    <li>
-                        <a href="../pages/about.php">About</a>
                     </li>
                     <li>
                         <a href="../pages/estate.list.php">Real Estate</a>
