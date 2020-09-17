@@ -7,6 +7,8 @@ const cards = document.querySelectorAll(".estate");
 
 // Select all buttons and add event listeners
 const all = document.querySelector("#all").addEventListener("click", refreshList);
+
+// Individual buttons
 const littoral = document.querySelector("#littoral").addEventListener("click", function () {
     searchList("Littoral");
 });
@@ -32,7 +34,7 @@ const prekmurje = document.querySelector("#prekmurje").addEventListener("click",
 
 function refreshList() {
     for (let i = 0; i < cards.length; i++) {
-        $(cards[i]).fadeIn('slow');
+        $(cards[i]).fadeIn(1500);
         // cards[i].style.display = "block";
     }
 }
@@ -44,7 +46,7 @@ function searchList(x) {
     for (let i = 0; i < cards.length; i++) {
         // .innerText is crucial here, makes the comparison possible
         if (cards[i].querySelector("h4").innerText !== x) {
-            $(cards[i]).fadeOut('slow');
+            $(cards[i]).fadeOut(1500);
             // cards[i].style.display = "none";
         }
     }
