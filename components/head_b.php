@@ -1,5 +1,7 @@
 <!-- General JS -->
 <script src="../scripts/script.js" defer></script>
+
+<!-- jQuery -->
 <script src="../scripts/jquery-3.5.1.js" defer></script>
 
 <!-- Font -->
