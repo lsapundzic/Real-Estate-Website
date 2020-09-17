@@ -88,6 +88,11 @@ if (!$resultCheck > 0) {
 
     </main>
 
+<script>
+    $('.overview').hide();
+    $('.overview').fadeIn('slow');
+</script>
+
     <!-- Footer -->
 
 <?php

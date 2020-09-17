@@ -32,7 +32,8 @@ const prekmurje = document.querySelector("#prekmurje").addEventListener("click",
 
 function refreshList() {
     for (let i = 0; i < cards.length; i++) {
-        cards[i].style.display = "block";
+        $(cards[i]).fadeIn('slow');
+        // cards[i].style.display = "block";
     }
 }
 
@@ -43,7 +44,8 @@ function searchList(x) {
     for (let i = 0; i < cards.length; i++) {
         // .innerText is crucial here, makes the comparison possible
         if (cards[i].querySelector("h4").innerText !== x) {
-            cards[i].style.display = "none";
+            $(cards[i]).fadeOut('slow');
+            // cards[i].style.display = "none";
         }
     }
 }

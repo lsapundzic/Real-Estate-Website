@@ -2,7 +2,7 @@
 <script src="../scripts/script.js" defer></script>
 
 <!-- jQuery -->
-<script src="../scripts/jquery-3.5.1.js" defer></script>
+<script src="../scripts/jquery-3.5.1.js" ></script>
 
 <!-- Font -->
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,300;1,900&family=Oswald:wght@500;700&display=swap"
