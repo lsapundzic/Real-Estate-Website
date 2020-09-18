@@ -5,31 +5,66 @@
 // Select all cards on the screen
 const cards = document.querySelectorAll(".estate");
 
-// Select all buttons and add event listeners
-const all = document.querySelector("#all").addEventListener("click", refreshList);
+// // Select all buttons and add event listeners
+// const all = document.querySelector("#all").addEventListener("click", refreshList);
+//
+// // Individual buttons
+// const littoral = document.querySelector("#littoral").addEventListener("click", function () {
+//     searchList("Littoral");
+// });
+// const upper = document.querySelector("#upper").addEventListener("click", function () {
+//     searchList("Upper Carniola");
+// });
+// const inner = document.querySelector("#inner").addEventListener("click", function () {
+//     searchList("Inner Carniola");
+// });
+// const lower = document.querySelector("#lower").addEventListener("click", function () {
+//     searchList("Lower Carniola");
+// });
+// const carinthia = document.querySelector("#carinthia").addEventListener("click", function () {
+//     searchList("Carinthia");
+// });
+// const styria = document.querySelector("#styria").addEventListener("click", function () {
+//     searchList("Styria");
+// });
+// const prekmurje = document.querySelector("#prekmurje").addEventListener("click", function () {
+//     searchList("Prekmurje");
+// });
 
-// Individual buttons
-const littoral = document.querySelector("#littoral").addEventListener("click", function () {
+
+$('#all').click(function () {
+    refreshList();
+})
+
+$('#littoral').click(function () {
     searchList("Littoral");
-});
-const upper = document.querySelector("#upper").addEventListener("click", function () {
+})
+
+$('#upper').click(function () {
     searchList("Upper Carniola");
-});
-const inner = document.querySelector("#inner").addEventListener("click", function () {
+})
+
+$('#inner').click(function () {
     searchList("Inner Carniola");
-});
-const lower = document.querySelector("#lower").addEventListener("click", function () {
+})
+
+$('#lower').click(function () {
     searchList("Lower Carniola");
-});
-const carinthia = document.querySelector("#carinthia").addEventListener("click", function () {
+})
+
+$('#carinthia').click(function () {
     searchList("Carinthia");
-});
-const styria = document.querySelector("#styria").addEventListener("click", function () {
+})
+
+$('#styria').click(function () {
     searchList("Styria");
-});
-const prekmurje = document.querySelector("#prekmurje").addEventListener("click", function () {
+})
+
+$('#prekmurje').click(function () {
     searchList("Prekmurje");
-});
+})
+
+
 
 
 function refreshList() {
