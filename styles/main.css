@@ -2,233 +2,224 @@
 
 /* Remove default formatting and adding overall rules*/
 * {
-    /* Reset */
-    padding: 0;
-    margin: 0;
+  /* Reset */
+  padding: 0;
+  margin: 0;
 
-    /* Fonts */
-    font-size: 10px;
-    font-family: "Nunito Sans", sans-serif;
+  /* Fonts */
+  font-size: 10px;
+  font-family: "Nunito Sans", sans-serif;
 
-    /* Design */
-    background-color: #ffffed;
+  /* Design */
+  background-color: #ffffed;
 
-    /* Behavior */
-    box-sizing: border-box;
+  /* Behavior */
+  box-sizing: border-box;
 }
 
 /* $$$$$$$$   Navigation    $$$$$$$ */
 
 nav {
-    margin: 30px 21vw 200px 21vw;
-
-
+  margin: 30px 21vw 200px 21vw;
 }
 
 nav ul {
+  /* Styling */
+  list-style: none;
 
-    /* Styling */
-    list-style: none;
-
-    /* Behavior */
-    display: grid;
-    grid-template-columns: repeat(3, minmax(160px, 1fr));
-    row-gap: 30px;
+  /* Behavior */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(160px, 1fr));
+  row-gap: 30px;
 }
 
 nav ul li {
-    /* Layout */
+  /* Layout */
 
-    /* Behavior */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
+  /* Behavior */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 nav a {
-    /* Font */
-    font-size: 2rem;
-    font-weight: bold;
+  /* Font */
+  font-size: 2rem;
+  font-weight: bold;
 
-    /* Layout */
+  /* Layout */
 
-    padding: 5px 10px 5px 10px;
-    border: 1px solid #2e2d2d;
-    border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #2e2d2d;
+  border-radius: 5px;
 
-    /* Design */
-    color: #ffffed;
-    background-color: #2e2d2d;
-    outline: none;
-    text-decoration: none;
+  /* Design */
+  color: #ffffed;
+  background-color: #2e2d2d;
+  outline: none;
+  text-decoration: none;
 }
 
 nav a:visited,
 nav a:active {
-    /* Design */
-    outline: none;
-    text-decoration: none;
-    color: #ffffed;
-    background-color: #2e2d2d;
+  /* Design */
+  outline: none;
+  text-decoration: none;
+  color: #ffffed;
+  background-color: #2e2d2d;
 }
 
 nav a:hover {
-    /* Design */
-    color: black;
-    background-color: #ffffed;
-    font-weight: bold;
-    border: 1px solid #2e2d2d;
-    border-radius: 5px;
+  /* Design */
+  color: black;
+  background-color: #ffffed;
+  font-weight: bold;
+  border: 1px solid #2e2d2d;
+  border-radius: 5px;
 }
 
 /* This is navbar for mobile only. It is switched off until media query is activated*/
 .mobile-nav {
-    display: none;
+  display: none;
 }
 
 /* Media query for navigation */
 @media screen and (max-width: 768px) {
-    /* Standard navbar is switched off*/
-    nav {
-        display: none;
-    }
+  /* Standard navbar is switched off*/
+  nav {
+    display: none;
+  }
 
-    /* Mobile navbar takes over*/
-    .mobile-nav {
-        display: block;
-    }
+  /* Mobile navbar takes over*/
+  .mobile-nav {
+    display: block;
+  }
 
-    .dropdown-menu {
-        /* Design */
-        background-color: #2e2d2d;
+  .dropdown-menu {
+    /* Design */
+    background-color: #2e2d2d;
 
-        /* Layout */
-        padding-top: 30px;
-        padding-bottom: 30px;
+    /* Layout */
+    padding-top: 30px;
+    padding-bottom: 30px;
 
-        /* Behavior */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    /* Behavior */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .dropdown-button {
-        /* Font */
-        font-size: 3rem;
-        color: #ffffed;
+  .dropdown-button {
+    /* Font */
+    font-size: 3rem;
+    color: #ffffed;
 
-        /* Layout */
-        text-align: center;
-        background-color: #2e2d2d;
-        border: 1px solid #ffffed;
-        border-radius: 5px;
-        padding: 7px;
+    /* Layout */
+    text-align: center;
+    background-color: #2e2d2d;
+    border: 1px solid #ffffed;
+    border-radius: 5px;
+    padding: 7px;
+  }
 
-    }
+  .dropdown-content {
+    /* Design */
+    background-color: #2e2d2d;
 
-    .dropdown-content {
-        /* Design */
-        background-color: #2e2d2d;
+    /* Layout*/
+    position: absolute;
+    min-width: 220px;
 
-        /* Layout*/
-        position: absolute;
-        min-width: 220px;
+    /* Behavior */
+    display: none;
+  }
 
-        /* Behavior */
-        display: none;
-    }
+  .dropdown-content ul {
+    /* Design */
+    list-style: none;
+    box-shadow: 3px 3px 6px black;
+  }
 
-    .dropdown-content ul {
-        /* Design */
-        list-style: none;
-        box-shadow: 3px 3px 6px black;
-    }
+  .dropdown-content ul li a {
+    /* Font */
+    font-size: 2.8rem;
+    color: #2e2d2d;
 
+    /* Behavior */
+    display: block;
+    text-decoration: none;
+  }
 
-    .dropdown-content ul li a {
-        /* Font */
-        font-size: 2.8rem;
-        color: #2e2d2d;
+  /* THIS IS WHERE THE MAGIC HAPPENS */
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #2e2d2d;
+    color: #ffffed;
+  }
 
-        /* Behavior */
-        display: block;
-        text-decoration: none;
-    }
-
-    /* THIS IS WHERE THE MAGIC HAPPENS */
-    /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {
-        background-color: #2e2d2d;
-        color: #ffffed;
-    }
-
-    /* Show the dropdown menu on hover */
-    .dropdown-button:hover .dropdown-content {
-        display: block;
-    }
+  /* Show the dropdown menu on hover */
+  .dropdown-button:hover .dropdown-content {
+    display: block;
+  }
 }
 
 /* $$$$$$$$   Header    $$$$$$$ */
 
-
 header {
-    /* Layout */
-    text-align: center;
-    margin: 150px;
+  /* Layout */
+  text-align: center;
+  margin: 150px;
 }
 
 h1 {
-    /* Font */
-    font-size: 7rem;
-    font-family: "Oswald", sans-serif;
-    color: #2e2d2d;
+  /* Font */
+  font-size: 7rem;
+  font-family: "Oswald", sans-serif;
+  color: #2e2d2d;
 }
 
 h2 {
-    /* Font */
-    font-size: 3.5rem;
-    color: #2e2d2d;
+  /* Font */
+  font-size: 3.5rem;
+  color: #2e2d2d;
 }
 
 /* Media queries for header */
 @media screen and (max-width: 768px) {
-    h1 {
-        font-size: 4rem;
-    }
+  h1 {
+    font-size: 4rem;
+  }
 
-    h2 {
-        font-size: 3.2rem;
-    }
+  h2 {
+    font-size: 3.2rem;
+  }
 }
 
 /* $$$$$$$$   Body    $$$$$$$ */
 h3 {
-    /* Font */
-    font-size: 3rem;
-    margin-bottom: 30px;
-    color: #2e2d2d;
+  /* Font */
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #2e2d2d;
 }
-
 
 /* Section is the main content component */
 section {
-    /* Layout */
-    margin: 30px 11vw 200px 11vw;
+  /* Layout */
+  margin: 30px 11vw 200px 11vw;
 }
 
 p {
-    /* Font */
-    font-size: 2rem;
-    color: #2e2d2d;
+  /* Font */
+  font-size: 2rem;
+  color: #2e2d2d;
 
-    /* Layout */
-    margin-bottom: 2rem;
+  /* Layout */
+  margin-bottom: 2rem;
 }
 
 /* Rules for image behavior throughout the entire site */
 img {
-    width: 100%;
-    box-shadow: 3px 3px 6px black;
+  width: 100%;
+  box-shadow: 3px 3px 6px black;
 }
-
