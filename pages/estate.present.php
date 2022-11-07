@@ -33,7 +33,7 @@ if (!$resultCheck > 0) {
 
     // I prefer to have new variables
     $lc_name = $col['name'];
-    $lc_region = $col['region'];
+    $lc_region = $col['region']; 
     $lc_price = $col['price'];
     $lc_bedrooms = $col['bedrooms'];
     $lc_bathrooms = $col['bathrooms'];
